@@ -5,11 +5,11 @@ namespace MemoEngine.Answers.Controls
 {
     public partial class BoardCommentControl : System.Web.UI.UserControl
     {
-        private readonly IAnswerCommentRepository repository;
+        private readonly Answers.IAnswerCommentRepository repository;
 
         public BoardCommentControl()
         {
-            repository = new AnswerCommentRepository(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
+            repository = new Answers.AnswerCommentRepository(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
         }
 
         protected void Page_Load(object sender, EventArgs e)

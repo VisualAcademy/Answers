@@ -9,9 +9,9 @@ namespace MemoEngine
     {
         public static void Register(HttpConfiguration config)
         {
-            // Web API 구성 및 서비스
+            // Web API configuration and services
 
-            // Web API 경로
+            // Web API routes
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(

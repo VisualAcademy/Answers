@@ -2,34 +2,34 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// 어셈블리의 일반 정보는 다음 특성 집합을 통해 
-// 제어됩니다. 어셈블리와 관련된 정보를 수정하려면
-// 이 특성 값을 변경하십시오.
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
 [assembly: AssemblyTitle("MemoEngine")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MemoEngine")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// ComVisible을 false로 설정하면 이 어셈블리의 형식이 COM 구성 요소에 
-// 표시되지 않습니다. COM에서 이 어셈블리의 형식에 액세스하려면 
-// 해당 형식에 대해 ComVisible 특성을 true로 설정하십시오.
+// Setting ComVisible to false makes the types in this assembly not visible 
+// to COM components.  If you need to access a type in this assembly from 
+// COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
-// 이 프로젝트가 COM에 노출되는 경우 다음 GUID는 typelib의 ID를 나타냅니다.
-[assembly: Guid("4dd776a0-733a-490b-b252-7d97873f1c9a")]
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("ddcb1eba-fc77-4537-9b73-781515d89465")]
 
-// 어셈블리의 버전 정보는 다음 네 가지 값으로 구성됩니다.:
+// Version information for an assembly consists of the following four values:
 //
 //      Major Version
 //      Minor Version 
 //      Build Number
 //      Revision
 //
-// 모든 값을 지정하거나 아래와 같이 '*'를 사용하여 빌드 번호 및 수정 버전이 자동으로 
-// 지정되도록 할 수 있습니다.:
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

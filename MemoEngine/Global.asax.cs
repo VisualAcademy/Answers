@@ -15,11 +15,11 @@ namespace MemoEngine
     {
         void Application_Start(object sender, EventArgs e)
         {
-            // 응용 프로그램 시작 시 실행되는 코드
+            // Code that runs on application startup
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);            
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }
